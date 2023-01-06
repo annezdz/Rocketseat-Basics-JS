@@ -1,0 +1,46 @@
+<script>
+    let weight 
+    console.log(typeof weight)
+
+    let name, age, stars, isSubscribed
+    name = "Anne"
+    age = 37
+    stars = 11.11
+    isSubscribed = true
+
+    let student = {
+        name:"Anne",
+        age:37,
+        peso:55.5,
+        isSubscribed:true
+    }
+    console.log(typeof student)
+    console.log(`${student.name} de idade ${student.age} pesa ${student.peso} kg`)
+
+    let students = []
+    console.log(typeof students)
+
+    students = [
+        student
+        
+    ]
+
+    const student1  = {
+            name:"Edu",
+            age:45,
+            peso:100.5,
+            isSubscribed:false
+        }
+    
+     /*   students = [
+            student,
+            student1
+        ] 
+        */
+
+        students[1] = student1
+    console.log(students[0])
+    console.log(students[1])
+
+
+</script>
